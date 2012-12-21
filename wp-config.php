@@ -15,8 +15,12 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"]);
-
+if ($_ENV["DATABASE_URL"]) {
+  $db = parse_url($_ENV["DATABASE_URL"]);
+} else {
+  $db = parse_url('http://localhost:5432/crowdspot-website');
+}
+  
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', trim($db["path"],"/"));
