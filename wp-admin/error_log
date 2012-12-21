@@ -1,0 +1,3 @@
+[17-Dec-2012 18:31:38] PHP Fatal error:  Call to undefined function  elete_transient() in /home/cameronb/public_html/crowdspot/wp-content/plugins/dynamic-to-top/uninstall.php on line 16
+[17-Dec-2012 22:16:21] PHP Parse error:  syntax error, unexpected $end in /home/cameronb/public_html/crowdspot/wp-content/themes/crowdSpot/lib/custom.php on line 145
+[17-Dec-2012 22:16:45] PHP Parse error:  syntax error, unexpected ')' in /home/cameronb/public_html/crowdspot/wp-content/themes/crowdSpot/lib/custom.php on line 123

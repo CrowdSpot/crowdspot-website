@@ -18,7 +18,7 @@
 if ($_ENV["DATABASE_URL"]) {
   $db = parse_url($_ENV["DATABASE_URL"]);
 } else {
-  $db = parse_url('http://localhost:5432/crowdspot-website');
+  $db = parse_url('http://tom@localhost:5432/crowdspot-website');
 }
   
 // ** MySQL settings - You can get this info from your web host ** //

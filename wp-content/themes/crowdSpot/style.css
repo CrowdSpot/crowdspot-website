@@ -1,0 +1,137 @@
+/* @override 
+	http://www.cameronboyle.com.au/crowdspot/style.css
+	http://www.cameronboyle.com.au/crowdspot/wp-content/themes/crowdSpot/style.css */
+
+/*
+Theme Name:         CrowdSpot
+Theme URI:          http://www.crowdspot.com.au
+Description:       Crowdspot is based on the Roots starting WordPress theme made for developers that's based on HTML5 Boilerplate and Bootstrap from Twitter. <a href="https://github.com/retlehs/roots/contributors">Contribute on GitHub</a>
+Version:            6.1.0
+Author:             Cameron Boyle
+Author URI:         http://cameronboyle.com.au/
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+/* Home thumbs greyscale */
+
+
+.thumbnail {
+	position: relative;
+	width: 160px !important;
+	background: #ffffff;
+}
+
+.thumbnail h3 {
+	color: #ffffff;
+	padding-left: 10px;
+	margin-bottom: 0;
+	font-size: 14px;
+	background-color: #686c6b;
+	margin-top: 0;	
+   	position: absolute;
+	*position: inherit;
+	bottom: 4px;
+	width: 150px;
+	line-height: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 100;
+}
+
+.thumbnail .img_wrapper {
+	width: 160px !important;
+	height: 160px !important;
+	*height: 125px !important;
+	overflow: hidden;
+	display: block !important;
+	}
+
+.thumbnail img {
+	width: 160px;
+	height: 126px;
+}
+
+.thumbnail h3 a {
+	color: #ffffff;
+}
+
+.thumbnails .span2 {
+	width: 171px;
+}
+
+/* @group Portfolio */
+
+/* Projects thumbs */
+
+#portfolio-list .portfolio-item {
+	height: 225px;
+	background-color: white;
+	min-height: 100px;
+	width: 225px;
+	padding: 4px;
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.48);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.48);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.48);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+}
+
+#portfolio-list .portfolio-item:hover .excerpt {
+	height: 100px;
+	
+}
+
+#portfolio-list .portfolio-item img {
+	width: 230px;
+	height: 178px;
+}
+
+.portfolio_thumb_details {
+	position: absolute;
+	bottom: 0;
+	width: 225px;
+	margin-bottom: 0px;
+}
+
+#portfolio-list .portfolio-item h3 {
+	/* background-color: #ff1609; */
+	background-color: #6c6e6d; 
+	font-size: 16px;
+	margin: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+
+#portfolio-list .portfolio-item .excerpt {
+	/* background-color: #ff1609; */
+	background-color: #6c6e6d; 
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s;
+	-moz-transition: height 0.3s; /* Firefox 4 */
+	-webkit-transition: height 0.3s; /* Safari and Chrome */
+	-o-transition: height 0.3s; /* Opera */
+}
+
+#portfolio-list .portfolio-item .excerpt a {
+	
+}
+
+/* @end */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	
+	
+}
+
+@media (max-width: 767px) {
+
+	
+	
+}
