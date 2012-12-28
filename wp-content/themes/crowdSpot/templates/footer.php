@@ -26,8 +26,7 @@
 </div>
 
 <div class="span12">
-<?php echo date("Y") ?> &copy; CrowdSpot Ornare Vestibulum Malesuada <br>
-Malesuada Fusce Venenatis usce Venenatis yes<br>
+<?php echo date("Y") ?> &copy; CrowdSpot<br>
 <p>&nbsp;</p>
 </div>
 
