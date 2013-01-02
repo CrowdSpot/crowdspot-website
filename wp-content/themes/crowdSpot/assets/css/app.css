@@ -209,7 +209,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 
 
 
-.contact p img {
+.contact p img, .contact p iframe {
     display: block;
     padding: 4px;
     border: 1px solid rgb(221, 221, 221);
