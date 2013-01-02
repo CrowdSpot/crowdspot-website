@@ -42,7 +42,7 @@ wp_unregister_GLOBALS();
 wp_fix_server_vars();
 
 // Check if we have received a request due to missing favicon.ico
-// wp_favicon_request();
+wp_favicon_request();
 
 // Check if we're in maintenance mode.
 wp_maintenance();
