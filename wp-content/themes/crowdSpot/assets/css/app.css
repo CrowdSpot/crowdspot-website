@@ -256,13 +256,11 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 	background: white;
 }
 
-.hupso_toolbar {
-	display: none;
-}
+
 
 #hupso_toolbar_0 {
 	margin: 50px 0px;
-	float: right;
+	
 }
 
 .nocomments {
