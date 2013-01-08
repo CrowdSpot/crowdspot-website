@@ -17,13 +17,13 @@ License URI:        http://opensource.org/licenses/MIT
 /* Home thumbs greyscale */
 
 
-.thumbnail {
+.thumbnail-home {
 	position: relative;
 	width: 160px !important;
 	background: #ffffff;
 }
 
-.thumbnail h3 {
+.thumbnail-home h3 {
 	color: #ffffff;
 	padding-left: 10px;
 	margin-bottom: 0;
@@ -40,7 +40,7 @@ License URI:        http://opensource.org/licenses/MIT
 	z-index: 100;
 }
 
-.thumbnail .img_wrapper {
+.thumbnail-home .img_wrapper {
 	width: 160px !important;
 	height: 160px !important;
 	*height: 125px !important;
@@ -48,16 +48,16 @@ License URI:        http://opensource.org/licenses/MIT
 	display: block !important;
 	}
 
-.thumbnail img {
+.thumbnail-home img {
 	width: 160px;
 	height: 126px;
 }
 
-.thumbnail h3 a {
+.thumbnail-home h3 a {
 	color: #ffffff;
 }
 
-.thumbnails .span2 {
+.thumbnail-homes .span2 {
 	width: 171px;
 }
 
