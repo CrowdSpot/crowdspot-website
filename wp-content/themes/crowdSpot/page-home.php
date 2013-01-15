@@ -35,7 +35,7 @@ Template Name: Home Template
 					while ( $loop->have_posts() ) : $loop->the_post(); ?>
 												<?php $infos = get_post_custom_values('_url'); ?>
 						
-						<div class="span3" id="span-fix">
+						<div class="span3" id="mobile-fix">
 						<li <?php echo strtolower($tax); ?>>
 							
 							<div class="thumb"><?php the_post_thumbnail( array(400, 160) ); ?>
