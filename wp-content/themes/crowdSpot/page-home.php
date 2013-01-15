@@ -69,12 +69,12 @@ Template Name: Home Template
 						
 			
 			<div id="project-small-wrapper">
-			<ul class="thumbnail-homes">
+			<ul class="thumbnails">
 					<?php if ( $loop ) :while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<?php $infos = get_post_custom_values('_url'); ?>
 			
 					<li class="span2">
-						<div class="thumbnail-home">
+						<div class="thumbnail">
 									<a href="<?php the_permalink() ?>"><?php the_post_thumbnail( array(162, 162) ); ?>
 									</a>
 									<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
