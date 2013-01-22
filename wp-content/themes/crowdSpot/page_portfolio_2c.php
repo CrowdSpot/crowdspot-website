@@ -7,6 +7,11 @@ Template Name: Portfolio 2 Columns
 
 		<div id="primary">
 			<div id="content" role="main">
+					<header>
+						<h1 class="entry-title"><?php the_title(); ?></h1>
+      
+					</header>
+			
 			<?php
 				 $terms = get_terms("tagportfolio");
 				 $count = count($terms);
