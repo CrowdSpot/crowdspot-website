@@ -189,7 +189,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 	background: red;
 }
 
-@media (max-width: 979px) {
+@media (max-width: 320px) {
   #mobile-fix {
   	margin-left: -20px;
 	text-align: center;
