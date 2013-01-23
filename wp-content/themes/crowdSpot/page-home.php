@@ -17,13 +17,6 @@ Template Name: Home Template
       
 <?php get_template_part('templates/content', 'page'); ?>
 
-
-
-
-
-<div id="home-break"></div>
-<div id="feature-header"><h2>How it works</h2><h4>CrowdSpot is an interactive map used to collect and visualise data. This is how it works:</h4></div>
-
 <?php
 				$loop = new WP_Query(array('post_type' => 'feature', 'posts_per_page' => 3));
 				$count =0;
