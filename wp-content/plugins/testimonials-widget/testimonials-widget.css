@@ -26,24 +26,26 @@
 
 .testimonialswidget_testimonial .testimonialswidget_image {
 	float: left;
-	margin-bottom: 1.4em;
+	margin-bottom: .4em;
 	margin-right: .2em;
 }
 
 .widget .testimonialswidget_testimonial .testimonialswidget_image {
+	display: block;
 	float: initial;
 }
 
 .testimonialswidget_testimonial q {
 	/* the testimonial itself */
-	/* Remove quotes by uncommenting the following */
-	/*
 	quotes: none;
-	*/
 }
 
-.widget .testimonialswidget_testimonial q p {
-	display: inline;
+.testimonialswidget_testimonial .testimonialswidget_open_quote:before {
+		content: '\201C';
+}
+
+.testimonialswidget_testimonial .testimonialswidget_close_quote:after {
+		content: '\201D';
 }
 
 .testimonialswidget_testimonial cite {
