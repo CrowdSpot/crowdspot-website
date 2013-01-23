@@ -385,6 +385,10 @@ html>body .wf-active  {
     visibility: visible;
 }
 
+#subtitle {
+	font-size: 16px;
+	margin-bottom: 50px;
+}
 
 
 
@@ -646,7 +650,14 @@ input, textarea, .uneditable-input {
 	margin-left: 15%;
 }
 
-
+#feature-header h4 {
+	text-align: left !important;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	margin-left: 15%;
+}
 
 #feature-list .feature-item h3 {
 	text-align: center !important;
