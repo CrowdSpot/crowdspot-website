@@ -152,7 +152,8 @@
 		$table = $GLOBALS['pg4wp_ins_table'];
 		$lastq = $GLOBALS['pg4wp_last_insert'];
 		
-		$seq = $table . '_seq';
+    // XXX: modified by tom
+		$seq = $table . '_id_seq';
 		
 		// Table 'term_relationships' doesn't have a sequence
 		if( $table == $wpdb->term_relationships)
