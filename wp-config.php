@@ -13,26 +13,19 @@
  *
  * @package WordPress
  */
-
-// ** Heroku Postgres settings - from Heroku Environment ** //
-if ($_ENV["DATABASE_URL"]) {
-  $db = parse_url($_ENV["DATABASE_URL"]);
-} else {
-  $db = parse_url('http://tom@localhost:5432/crowdspot-website');
-}
   
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', trim($db["path"],"/"));
+define('DB_NAME', "crowdspot_website");
 
 /** MySQL database username */
-define('DB_USER', $db["user"]);
+define('DB_USER', "root");
 
 /** MySQL database password */
-define('DB_PASSWORD', $db["pass"]);
+define('DB_PASSWORD', "");
 
 /** MySQL hostname */
-define('DB_HOST', $db["host"]);
+define('DB_HOST', 'localhost:/tmp/mysql.sock');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -41,8 +34,8 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 
-// define('WP_HOME','http://localhost:8888/crowdspot-website');
-// define('WP_SITEURL','http://localhost:8888/crowdspot-website');
+define('WP_HOME','http://crowdspot.local:8080/');
+define('WP_SITEURL','http://crowdspot.local:8080/');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -89,7 +82,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
